@@ -20,9 +20,9 @@ if !exists("g:occur_no_quickfix_map")
 endif
 
 " Key bind
-nnoremap <silent> <unique> <Leader>oc :Occur<CR>
-nnoremap <silent> <unique> <Leader>mo :Moccur<CR>
-nnoremap <silent> <unique> <Leader>* *<C-o>:Moccur<CR>
+"nnoremap <silent> <unique> <Leader>oc :Occur<CR>
+"nnoremap <silent> <unique> <Leader>mo :Moccur<CR>
+"nnoremap <silent> <unique> <Leader>* *<C-o>:Moccur<CR>
 
 " Create commands
 command! Occur silent call s:SetupAndGo('s:Occur')
